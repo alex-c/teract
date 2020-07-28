@@ -1,0 +1,12 @@
+{
+  "name": "teract-backend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {},
+  "author": "Alexandre Charoy <alexandre.charoy@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
