@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  rethinkdb:
+    image: rethinkdb:latest
+    ports:
+      - "8080:8080"
+      - "28015:28015"
+      - "29015:29015"
+    command: rethinkdb --bind all --initial-password password # Set admin password!
+    volumes:
+      - rethinkdb-data:/data
+volumes:
+  rethinkdb-data:
