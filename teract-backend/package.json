@@ -7,7 +7,7 @@
   "author": "Alexandre Charoy <alexandre.charoy@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "rethinkdb": "^2.4.2"
   }
 }
